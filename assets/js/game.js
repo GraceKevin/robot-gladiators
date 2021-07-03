@@ -113,7 +113,7 @@ var startGame = function() {
   endGame();
 };
 
-var randomNumber = function(40, 60) {
+var randomNumber = function(min, max) {
   var value = Math.floor(Math.random() * (21)) + 40;
 
   return value;
